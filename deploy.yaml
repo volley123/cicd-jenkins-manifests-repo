@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: volley123/cicd-e2e:${BUILD_NUMBER}
+        image: volley123/cicd-e2e:replaceImageTag
         ports:
         - containerPort: 8000
