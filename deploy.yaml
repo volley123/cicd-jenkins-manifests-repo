@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: todo
-        image: volley123/cicd-e2e:replaceImageTag
+        image: volley123/cicd-e2e:19
         ports:
         - containerPort: 8000
